@@ -24,6 +24,7 @@
   /* Feedback colors */
   --success: #2e7d32;
   --success-light: #e8f5e9;
+  --success-text: #ffffff;
   --warning: #ff9800;
   --warning-light: #fff3cd;
   --error: #c62828;
@@ -663,4 +664,12 @@ footer {
 
 #logout-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.announcement-banner {
+  background-color: var(--success);
+  color: var(--success-text);
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
 }
